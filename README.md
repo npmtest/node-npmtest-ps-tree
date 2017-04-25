@@ -1,6 +1,6 @@
 # npmtest-ps-tree
 
-#### test coverage for  [ps-tree (v1.1.0)](http://github.com/indexzero/ps-tree)  [![npm package](https://img.shields.io/npm/v/npmtest-ps-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ps-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ps-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-ps-tree)
+#### basic test coverage for  [ps-tree (v1.1.0)](http://github.com/indexzero/ps-tree)  [![npm package](https://img.shields.io/npm/v/npmtest-ps-tree.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ps-tree) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ps-tree.svg)](https://travis-ci.org/npmtest/node-npmtest-ps-tree)
 
 #### Get all children of a pid
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ps-tree/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ps-tree/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ps-tree/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ps-tree/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ps-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ps-tree/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ps-tree/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ps-tree/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ps-tree/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ps-tree/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ps-tree/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ps-tree/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "coverage": "npm test && istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
         "test": "istanbul cover node_modules/tape/bin/tape test/test.js test/direct.js"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
